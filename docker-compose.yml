@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   traefik-docker-proxy:
-    image: tecnativa/docker-socker-proxy
+    image: tecnativa/docker-socket-proxy
     container_name: traefik-docker-proxy
     restart: always
     environment:
